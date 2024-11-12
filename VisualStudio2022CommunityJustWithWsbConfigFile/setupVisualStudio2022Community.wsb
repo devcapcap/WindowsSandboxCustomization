@@ -1,0 +1,183 @@
+<Configuration>
+ <Networking>Enable</Networking>
+    <ProtectedClient>Enable</ProtectedClient>
+    <PrinterRedirection>Disable</PrinterRedirection>
+    <ClipboardRedirection>Disable</ClipboardRedirection>
+    <vGpu>Disable</vGpu>
+    <MemoryInMB>10240</MemoryInMB>
+  <MappedFolders>
+  
+  
+    <MappedFolder>
+      <HostFolder>DD:\TRASH\WINDOWS_SANDBOX_CFG\INSIDE\SHARE\windows_sandbox\VISUAL_STUDIO_COMMUNITY_2022_USER_WDAGUtility\OUT\VisualStudio2022CommunityJustWeConfigFile</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads\Package-Deploy</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<!--START C:\Program Files-->
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files\dotnet</HostFolder>
+      <SandboxFolder>C:\Program Files\dotnet</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+
+	<MappedFolder>
+      <HostFolder>C:\Program Files\Common Files\microsoft shared</HostFolder>
+      <SandboxFolder>C:\Program Files\Common Files\microsoft shared</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files\Common Files\Microsoft</HostFolder>
+      <SandboxFolder>C:\Program Files\Common Files\Microsoft</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files\IIS</HostFolder>
+      <SandboxFolder>C:\Program Files\IIS</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files\IIS Express</HostFolder>
+      <SandboxFolder>C:\Program Files\IIS Express</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files\Microsoft SQL Server</HostFolder>
+      <SandboxFolder>C:\Program Files\Microsoft SQL Server</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files\Microsoft Visual Studio</HostFolder>
+      <SandboxFolder>C:\Program Files\Microsoft Visual Studio</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files\MSBuild</HostFolder>
+      <SandboxFolder>C:\Program Files\MSBuild</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<!--END C:\Program Files-->
+	
+	<!--START C:\Program Files (x86)-->
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\dotnet</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\dotnet</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+	</MappedFolder>
+
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Common Files\Microsoft Shared</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Common Files\Microsoft Shared</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Common Files\Microsoft</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Common Files\Microsoft</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\IIS</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\IIS</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\IIS Express</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\IIS Express</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+		
+	<MappedFolder>
+		<HostFolder>C:\Program Files (x86)\Microsoft\Xamarin</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Microsoft\Xamarin</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Microsoft SDKs</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Microsoft SDKs</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Microsoft SQL Server</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Microsoft SQL Server</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Microsoft Visual Studio</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Microsoft Visual Studio</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Microsoft Web Tools</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Microsoft Web Tools</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Microsoft.NET</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Microsoft.NET</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\MSBuild</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\MSBuild</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\NuGet</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\NuGet</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<MappedFolder>
+      <HostFolder>C:\Program Files (x86)\Windows Kits</HostFolder>
+      <SandboxFolder>C:\Program Files (x86)\Windows Kits</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<!--END C:\Program Files (x86)-->
+	
+	<!--START C:\ProgramData-->
+	<MappedFolder>
+      <HostFolder>C:\ProgramData\Microsoft Visual Studio</HostFolder>
+      <SandboxFolder>C:\ProgramData\Microsoft Visual Studio</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	
+	<MappedFolder>
+      <HostFolder>C:\ProgramData\Microsoft\VisualStudio</HostFolder>
+      <SandboxFolder>C:\ProgramData\Microsoft\VisualStudio</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+	
+	<!--END C:\ProgramData-->
+	
+  </MappedFolders>
+</Configuration>

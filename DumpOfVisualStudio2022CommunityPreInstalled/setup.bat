@@ -1,0 +1,1 @@
+cscript "C:\Users\WDAGUtilityAccount\Downloads\Package-Deploy\DumpOfVisualStudio2022CommunityPreInstalled\setup_visual_studio_env_vars.vbs"

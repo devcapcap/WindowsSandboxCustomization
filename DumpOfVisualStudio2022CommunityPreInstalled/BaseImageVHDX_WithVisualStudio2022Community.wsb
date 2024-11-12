@@ -1,0 +1,15 @@
+<Configuration>
+ <Networking>Enable</Networking>
+    <ProtectedClient>Enable</ProtectedClient>
+    <PrinterRedirection>Disable</PrinterRedirection>
+    <ClipboardRedirection>Disable</ClipboardRedirection>
+    <vGpu>Disable</vGpu>
+    <MemoryInMB>8192</MemoryInMB>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>c:\DumpOfVisualStudio2022CommunityPreInstalled</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads\Package-Deploy</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+</Configuration>
