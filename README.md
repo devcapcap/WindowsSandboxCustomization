@@ -53,7 +53,9 @@
 (for information, to be sure of copying all files and avoid copy permissions: change the ownership of these various directories and, once the copies have been made,
  restore the original ownership (directory ownership->security tab->advanced ownership).  
   To be done all the time when you launch the modfied VM (you can configure it in the VM launch file in the <LogonCommand>fix_env_vars_import_registry.cmd</LogonCommand > part).
-  
+
+## !! At this step you can backup the BaseLayer.vhdx file and it will be your new pre-configured VM.
+
 ## E- Registry import
 1. Import the registry you've exported from the VM by launching regedit from the windows search bar and doing file immporter <your *.reg> file.
 
