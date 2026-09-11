@@ -59,7 +59,7 @@
 ## E- Registry import
 1. Import the registry you've exported from the VM by launching regedit from the windows search bar and doing file immporter <your *.reg> file.
 
-## F- Set send variables
+## F- Set SYSTEM variables
 1. there's a problem when creating C#, for example, and the Microsoft.NET.Sdk is not found, so you need to add "SYSTEM" environment variables. Here's the list of variables with the "fix_dotnet_directory_system_path.bat" script
 ```
 @echo off	
@@ -69,10 +69,10 @@ for %%p in (%variables%) do (
 	set "current_path=%PATH%"
 	echo %current_path% | findstr /i /c:"%new_path%" >nul
 	if %errorlevel%==0 (
-		echo Le chemin %new_path% est déjà dans PATH.
+		echo The path %new_path% already in PATH.
 	) else (
 		setx PATH "%current_path%;%new_path%" /M
-		echo Le chemin %new_path% a été ajouté à PATH.
+		echo The %new_path% added to the PATH.
 		set "PATH=%PATH%;%new_path%"
 	)
 )
